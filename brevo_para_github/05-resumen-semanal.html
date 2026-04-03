@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Resumen Semanal</title></head><body style="margin:0;padding:0;background-color:#0A0F1E;font-family:Arial,Helvetica,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0A0F1E;padding:40px 16px;">
+<tr><td align="center">
+<table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;">
+
+<tr><td style="background-color:#0D1428;border:1px solid #B8860B;padding:40px;text-align:center;">
+<p style="font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#F0D080;margin:0 0 10px 0;font-family:Arial,sans-serif;">✦ TU RESUMEN SEMANAL</p>
+<h1 style="font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;color:#FFF8EE;margin:0 0 8px 0;line-height:1.2;">Lo mejor de esta semana<br/><span style="color:#F0D080;font-style:italic;">en tu feed</span></h1>
+<p style="font-size:13px;color:#8A9AC0;margin:0;font-family:Arial,sans-serif;">Semana del {{ params.WEEK_DATE }}</p>
+</td></tr>
+
+<tr><td style="background-color:#111828;padding:20px 40px;border-left:1px solid #1A2840;border-right:1px solid #1A2840;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="text-align:center;padding:0 12px;border-right:1px solid #1A2840;">
+<p style="font-family:Georgia,serif;font-size:26px;font-weight:bold;color:#F0D080;margin:0;">{{ params.NEW_CONTENT_COUNT }}</p>
+<p style="font-size:10px;color:#8A9AC0;margin:4px 0 0;text-transform:uppercase;letter-spacing:1px;font-family:Arial,sans-serif;">nuevos</p>
+</td>
+<td style="text-align:center;padding:0 12px;border-right:1px solid #1A2840;">
+<p style="font-family:Georgia,serif;font-size:26px;font-weight:bold;color:#F0D080;margin:0;">{{ params.ACTIVE_CREATORS }}</p>
+<p style="font-size:10px;color:#8A9AC0;margin:4px 0 0;text-transform:uppercase;letter-spacing:1px;font-family:Arial,sans-serif;">creadores</p>
+</td>
+<td style="text-align:center;padding:0 12px;">
+<p style="font-family:Georgia,serif;font-size:26px;font-weight:bold;color:#F0D080;margin:0;">{{ params.EXCLUSIVE_COUNT }}</p>
+<p style="font-size:10px;color:#8A9AC0;margin:4px 0 0;text-transform:uppercase;letter-spacing:1px;font-family:Arial,sans-serif;">exclusivos</p>
+</td>
+</tr>
+</table>
+</td></tr>
+
+<tr><td style="background-color:#F5EDD8;padding:36px 40px;">
+<p style="font-size:12px;color:#B8860B;text-transform:uppercase;letter-spacing:1px;font-weight:bold;margin:0 0 16px 0;font-family:Arial,sans-serif;">✦ Destacado de la semana</p>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px;background-color:#FFFFFF;border:1px solid #E8D5A3;">
+<tr><td style="padding:16px 20px;">
+<p style="font-size:11px;color:#B8860B;text-transform:uppercase;letter-spacing:1px;margin:0 0 6px 0;font-weight:bold;font-family:Arial,sans-serif;">{{ params.ITEM1_TYPE }}</p>
+<p style="font-family:Georgia,serif;font-size:16px;font-weight:bold;color:#2A1F0E;margin:0 0 4px 0;">{{ params.ITEM1_TITLE }}</p>
+<p style="font-size:13px;color:#8A7F72;margin:0 0 10px 0;font-family:Arial,sans-serif;">{{ params.ITEM1_CREATOR }}</p>
+<a href="{{ params.ITEM1_URL }}" style="font-size:12px;color:#B8860B;font-weight:bold;text-decoration:none;font-family:Arial,sans-serif;">Ver / Escuchar →</a>
+</td></tr>
+</table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px;background-color:#FFFFFF;border:1px solid #E8D5A3;">
+<tr><td style="padding:16px 20px;">
+<p style="font-size:11px;color:#B8860B;text-transform:uppercase;letter-spacing:1px;margin:0 0 6px 0;font-weight:bold;font-family:Arial,sans-serif;">{{ params.ITEM2_TYPE }}</p>
+<p style="font-family:Georgia,serif;font-size:16px;font-weight:bold;color:#2A1F0E;margin:0 0 4px 0;">{{ params.ITEM2_TITLE }}</p>
+<p style="font-size:13px;color:#8A7F72;margin:0 0 10px 0;font-family:Arial,sans-serif;">{{ params.ITEM2_CREATOR }}</p>
+<a href="{{ params.ITEM2_URL }}" style="font-size:12px;color:#B8860B;font-weight:bold;text-decoration:none;font-family:Arial,sans-serif;">Ver / Escuchar →</a>
+</td></tr>
+</table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:24px;background-color:#FFFFFF;border:1px solid #E8D5A3;">
+<tr><td style="padding:16px 20px;">
+<p style="font-size:11px;color:#B8860B;text-transform:uppercase;letter-spacing:1px;margin:0 0 6px 0;font-weight:bold;font-family:Arial,sans-serif;">{{ params.ITEM3_TYPE }}</p>
+<p style="font-family:Georgia,serif;font-size:16px;font-weight:bold;color:#2A1F0E;margin:0 0 4px 0;">{{ params.ITEM3_TITLE }}</p>
+<p style="font-size:13px;color:#8A7F72;margin:0 0 10px 0;font-family:Arial,sans-serif;">{{ params.ITEM3_CREATOR }}</p>
+<a href="{{ params.ITEM3_URL }}" style="font-size:12px;color:#B8860B;font-weight:bold;text-decoration:none;font-family:Arial,sans-serif;">Ver / Escuchar →</a>
+</td></tr>
+</table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td align="center"><a href="https://elevate8.pro/dashboard.html" style="display:inline-block;background-color:#0A0F1E;color:#F0D080;font-size:14px;font-weight:bold;padding:16px 36px;text-decoration:none;font-family:Arial,sans-serif;letter-spacing:1px;border:1px solid #B8860B;">Ver todo en mi dashboard →</a></td></tr>
+</table>
+</td></tr>
+
+<tr><td style="background-color:#070A14;padding:24px 40px;text-align:center;">
+<p style="font-size:11px;color:#3A4466;margin:0 0 8px 0;font-family:Arial,sans-serif;">SuperInteligencia by Elevate8 · elevate8.pro</p>
+<p style="font-size:11px;color:#3A4466;margin:0;font-family:Arial,sans-serif;"><a href="{{ unsubscribeLink }}" style="color:#4A5580;text-decoration:underline;">Cancelar resumen semanal</a></p>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body></html>

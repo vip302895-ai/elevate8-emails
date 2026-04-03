@@ -1,0 +1,32 @@
+======================================================
+URLS PARA IMPORTAR TEMPLATES EN BREVO
+SuperInteligencia by Elevate8
+======================================================
+
+PASOS:
+1. Ve a github.com → Sign up (gratis)
+2. New repository → nombre: elevate8-emails → Public → Create
+3. Sube los 6 archivos HTML (drag & drop en GitHub)
+4. Una vez subidos, para CADA archivo:
+   - Clic en el archivo
+   - Clic en "Raw" (botón arriba a la derecha)
+   - Copia esa URL
+
+Las URLs Raw de GitHub tienen este formato:
+https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/01-bienvenida-free.html
+https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/02-bienvenida-premium.html
+https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/03-paywall-upgrade.html
+https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/04-alerta-creador.html
+https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/05-resumen-semanal.html
+https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/06-recordatorio-dashboard.html
+
+(Reemplaza TU_USUARIO con tu username de GitHub)
+
+======================================================
+EN BREVO - para cada template:
+1. Email → Templates → New Template
+2. Nombre → Next
+3. Busca "Import" → "From a URL"
+4. Pega la URL Raw de GitHub
+5. Save → Send test
+======================================================
