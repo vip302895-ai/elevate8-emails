@@ -13,14 +13,14 @@ PASOS:
    - Copia esa URL
 
 Las URLs Raw de GitHub tienen este formato:
-https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/01-bienvenida-free.html
-https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/02-bienvenida-premium.html
-https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/03-paywall-upgrade.html
-https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/04-alerta-creador.html
-https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/05-resumen-semanal.html
-https://raw.githubusercontent.com/TU_USUARIO/elevate8-emails/main/06-recordatorio-dashboard.html
+https://raw.githubusercontent.com/vip302895-ai/elevate8-emails/main/brevo_para_github/01-bienvenida-free.html
+https://raw.githubusercontent.com/vip302895-ai/elevate8-emails/main/brevo_para_github/02-bienvenida-premium.html
+https://raw.githubusercontent.com/vip302895-ai/elevate8-emails/main/brevo_para_github/03-paywall-upgrade.html
+https://raw.githubusercontent.com/vip302895-ai/elevate8-emails/main/brevo_para_github/04-alerta-creador.html
+https://raw.githubusercontent.com/vip302895-ai/elevate8-emails/main/brevo_para_github/05-resumen-semanal.html
+https://raw.githubusercontent.com/vip302895-ai/elevate8-emails/main/brevo_para_github/06-recordatorio-dashboard.html
 
-(Reemplaza TU_USUARIO con tu username de GitHub)
+(Los archivos estan dentro de la carpeta brevo_para_github/)
 
 ======================================================
 EN BREVO - para cada template:
